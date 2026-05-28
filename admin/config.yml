@@ -1,0 +1,22 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "modules"
+    label: "Modules"
+    files:
+      - file: "modules.json"
+        label: "Modules JSON"
+        name: "modules_json"
+        fields:
+          - {label: "modules", name: "modules", widget: "list", fields:
+              - {label: "id", name: "id", widget: "string"}
+              - {label: "title", name: "title", widget: "string"}
+              - {label: "description", name: "description", widget: "text"}
+              - {label: "path", name: "path", widget: "string"}
+              - {label: "icon", name: "icon", widget: "string"}
+            }

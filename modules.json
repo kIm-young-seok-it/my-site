@@ -1,0 +1,11 @@
+{
+  "modules": [
+    {
+      "id": "example",
+      "title": "예제 프로그램",
+      "description": "이곳에 프로그램 설명을 입력하세요.",
+      "path": "programs/example/index.html",
+      "icon": "icons/example.png"
+    }
+  ]
+}
